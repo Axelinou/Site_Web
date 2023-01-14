@@ -38,7 +38,8 @@ p1 {
 	overflow: auto;
 	white-space: pre-wrap;
 	font-weight: bold;
-	display: hidden;
+	color: rgb(185, 177, 177);
+	
 	
 	
 }
@@ -90,7 +91,7 @@ aside {
 
 .block {
 	scale: 1;
-	width: 48px;
+	width: 52px;
 	height: 48px;
 	display: grid;
 	
@@ -140,7 +141,7 @@ aside {
 	height: 200px;
 	width: 200px;
 	border: solid 2px #c98810;
-	background-image: url("../images/presentation.gif");
+	background-image: url("../images/historycover.PNG");
 	background-size: cover;
 	
 	
@@ -151,7 +152,7 @@ aside {
 	height: 200px;
 	width: 200px;
 	border: solid 2px #c98810;
-	background-image: url("../images/hint.gif");
+	background-image: url("../images/hintcover.PNG");
 	background-size: 98% 100%;
 	margin: -12.5rem 15rem 2rem;
 }
@@ -159,7 +160,7 @@ aside {
 .choice3{
 	height: 200px;
 	width: 200px;
-	background-image: url("../images/agent.gif");
+	background-image: url("../images/pvpcover.PNG");
 	border: solid 2px #c98810;
 	margin: 5.5rem 15rem 2rem;
 	
@@ -170,7 +171,7 @@ aside {
 	width: 200px;
 	border: solid 2px #c98810;
 
-	background-image: url("../images/warm welcome.gif");
+	background-image: url("../images/factioncover.PNG");
 	background-size: 99% 98%;
 	margin: -14.6rem 0rem -2rem;
 }
@@ -212,8 +213,8 @@ aside {
 .choice1:hover{
 	
 	transition: all 0.2s linear 0s;
-	color:  orange;
-	filter: opacity(0.5);
+	background-image: url(../images/history.gif);
+	box-shadow: darkblue 10px;
 	transform: scale(0.9);
 	
 	
@@ -221,28 +222,37 @@ aside {
 
 }
 
+
+p1:hover{
+	color:rgb(201, 142, 34);
+}
+
+
+
+.link:visited{
+	color:rgb(201, 142, 34);
+}
 
 
 
 .choice2:hover{
 	
 	transition: all 0.2s linear 0s;
-	color: orange;
-	filter: opacity(0.5);
+	background-image: url(../images/hint.gif);
 	transform: scale(0.9);
 }
 .choice3:hover{
 	
 	transition: all 0.2s linear 0s;
-	color: orange;
-	filter: opacity(0.5);
+	background-image: url(../images/pvp.gif);
+
 	transform: scale(0.9);
 }
 .choice4:hover{
 	
 	transition: all 0.2s linear 0s;
-	color: orange;
-	filter: opacity(0.5);
+	background-image: url(../images/faction.gif);
+	
 	transform: scale(0.9);
 }
 
