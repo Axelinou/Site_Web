@@ -255,6 +255,8 @@ aside {
 
 }
 
+
+
 :is(.block:hover, .block:focus-visible) {
   --lerp: var(--lerp-0);
   z-index: 5;
