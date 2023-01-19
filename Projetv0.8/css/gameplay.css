@@ -244,50 +244,32 @@ aside {
 
 @media (max-width: 720px) {
 
-	.page{
-		top:102%
-	}
-	p {
-		box-sizing: border-box;
-        font-size: 7px;
-	}
+	.page {
+		display: flex;
+		flex-direction: block;
+		align-items: center;
+		justify-content: center;
+		background-color: rgb(100, 94, 94);
+		border: 3px solid rgb(190, 125, 28);
+		width: 100%;
+		height: justify;
+		backdrop-filter: opacity(0.5);
+		position: absolute;
+		top: 265%;
+		left: 50%;
+	
+		z-index: 0;
+		filter: opacity(0.8);
+}
 
-	h1{
-		font-size: small;
-	}
 	h2{
 		font-size: small;
 	}
 
-	
-
-
-
-	.wikilogo{
-		height: 50px;
-		width: 150px;
-		padding: 5px;
-		background-size: 75%;
-		align-items: center;
-		left:50%;
+	[role=region]{
+		display: none;
 	}
-	.socialmedia{
-	scale:0.4;
-	align-items: center;
-	display: inline-block;
-	}
-	
-	.block{
-		scale: 0.7;
-	}
-	.blocks{
-		scale: 0.7;
-	}
-
-
-
 }
-
 :is(.block:hover, .block:focus-visible) {
   --lerp: var(--lerp-0);
   z-index: 5;
