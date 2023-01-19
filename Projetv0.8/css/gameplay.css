@@ -125,7 +125,7 @@ aside {
   height: justify;
   backdrop-filter: opacity(0.5);
   position: absolute;
-  top: 200%;
+  top: 225%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
@@ -135,8 +135,14 @@ aside {
 }
 
 
-s
+.link{
+	color:rgb(201, 142, 34);
+	text-decoration:none;
+}
 
+.link:visited{
+	color:rgb(201, 142, 34);
+}
 .blocks:hover {
 	--show: 1;
 	filter: drop-shadow(10px 10px 10px black);
@@ -197,7 +203,7 @@ s
 @media(prefers-color-scheme: dark) {
 	body {
 		
-		height: 400vh ;
+		height: 450vh ;
 		background-size: cover;		
 		
 		
@@ -222,11 +228,16 @@ s
 @media  (min-width:2560px){
 
 	.page{
-		top:150%;
+		top:180%;
+		
 	}
 }
 
 @media (max-width: 720px) {
+
+	.page{
+		top:102%
+	}
 	p {
 		box-sizing: border-box;
         font-size: 7px;

@@ -41,6 +41,15 @@ body {
 	
 }
 
+.link{
+	color:rgb(201, 142, 34);
+	text-decoration:none;
+}
+
+.link:visited{
+	color:rgb(201, 142, 34);
+}
+
 
 
 aside {
