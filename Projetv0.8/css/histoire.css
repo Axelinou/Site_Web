@@ -105,9 +105,9 @@ aside {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	border-radius: 10px;
-	background-image: url(../../Projetv0.8/images/logo.png);
+	background-image: url(../../Projetv0.8/images/logohome.png);
 	background-size: cover;
-	height: 100px;
+	height: 200px;
 	width: 400px;
 
 	
@@ -122,10 +122,10 @@ aside {
   background-color: rgb(100, 94, 94);
   border: 3px solid rgb(190, 125, 28);
   width: 50%;
-  height: justify;
+  height: 255%;
   backdrop-filter: opacity(0.5);
   position: absolute;
-  top: 125%;
+  top: 106%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
@@ -226,9 +226,12 @@ aside {
 	}
 }
 @media  (min-width:2560px){
+	body{
+		height: 310vh;
+	}
 
 	.page{
-		top:80%;
+		top:78%;
 		
 	}
 }
