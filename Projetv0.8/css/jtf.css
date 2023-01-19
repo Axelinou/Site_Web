@@ -20,6 +20,13 @@ h1{
 	bottom: 0%;
 }
 
+
+h4 {
+	font-size:25px;
+	font-weight:bold;
+	color:rgb(201, 142, 34);
+	font-weight: bold;
+}
 p {
 	
 	overflow: auto;
@@ -244,6 +251,18 @@ aside {
 	h2{
 		font-size: small;
 	}
+
+		
+	h4{
+		font-size: small;
+		font-size: 10px;
+	}
+
+	.link{
+		font-size: small;
+		font-size: 10px;
+	}
+
 
 	
 

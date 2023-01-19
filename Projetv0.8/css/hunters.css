@@ -14,10 +14,26 @@
 
 
 
+.link{
+	color:rgb(201, 142, 34);
+	text-decoration:none;
+}
+
+.link:visited{
+	color:rgb(201, 142, 34);
+}
+
 
 h1{
 	font-size: 30px;
 	bottom: 0%;
+}
+
+h4 {
+	font-size:25px;
+	font-weight:bold;
+	color:rgb(201, 142, 34);
+	font-weight: bold;
 }
 
 p {
@@ -226,7 +242,15 @@ aside {
 		font-size: small;
 	}
 
-	
+	h4{
+		font-size: small;
+		font-size: 10px;
+	}
+
+	.link{
+		font-size: small;
+		font-size: 10px;
+	}
 
 
 
