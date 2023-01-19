@@ -42,6 +42,15 @@ body {
 }
 
 
+.link{
+	color:rgb(201, 142, 34);
+	text-decoration:none;
+}
+
+.link:visited{
+	color:rgb(201, 142, 34);
+}
+
 
 
 
@@ -125,7 +134,7 @@ aside {
   height: justify;
   backdrop-filter: opacity(0.5);
   position: absolute;
-  top: 225%;
+  top: 205%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
@@ -228,7 +237,7 @@ aside {
 @media  (min-width:2560px){
 
 	.page{
-		top:180%;
+		top:150%;
 		
 	}
 }
